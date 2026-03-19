@@ -1,16 +1,44 @@
-# React + Vite
+# AURA AI — Motor de Matching Inversor–Startup
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AURA es una aplicación que permite a startups encontrar los inversores más compatibles según su perfil, utilizando un sistema de scoring basado en variables clave del ecosistema venture capital.
 
-Currently, two official plugins are available:
+## 🚀 ¿Qué hace?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Dado el perfil de una startup, AURA calcula un ranking de inversores basado en:
 
-## React Compiler
+- Sector
+- Etapa
+- Ticket buscado
+- Geografía
+- Tamaño del equipo
+- Tracción (MRR)
+- Impacto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧠 Cómo funciona
 
-## Expanding the ESLint configuration
+El sistema utiliza un modelo de scoring ponderado que evalúa la compatibilidad entre startup e inversores, generando un porcentaje de match (0–100%).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖥️ Demo
+
+👉 https://camnotsig.github.io/AURA-AI-Motor-de-Matching
+
+## ⚙️ Tecnologías
+
+- React
+- Vite
+- JavaScript
+
+## 📌 Estado del proyecto
+
+MVP funcional — en evolución hacia sistema de recomendación basado en AI.
+
+## 🎯 Próximos pasos
+
+- Explicación del porqué del match
+- Mejora del algoritmo (AI / embeddings)
+- Persistencia de datos
+- Integración con APIs reales de VC
+
+## 👤 Autor
+
+Camilo Molina
