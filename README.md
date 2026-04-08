@@ -20,7 +20,7 @@ El sistema utiliza un modelo de scoring ponderado que evalúa la compatibilidad 
 
 ## 🖥️ Demo
 
-👉 https://camnotsig.github.io/AURA-AI-Motor-de-Matching
+👉 https://bycamiloam.github.io/AURA-AI-Motor-de-Matching
 
 ## ⚙️ Tecnologías
 
